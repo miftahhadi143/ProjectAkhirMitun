@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_hd_android_3d_"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Button untuk List Data -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/logo_mhs" />
+
+    <Button
+        android:id="@+id/buttonlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Data"
+        android:padding="8dp"
+        android:layout_marginTop="10dp" />/>
+
+    <!-- Button untuk Input Data -->
+    <Button
+        android:id="@+id/buttoninputdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:layout_marginTop="5dp" />
+
+    <!-- Button untuk Informasi -->
+    <Button
+        android:id="@+id/buttoninformasi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi Aplikasi"
+        android:layout_marginTop="5dp" />
+
+    <!-- Button untuk Keluar -->
+    <Button
+        android:id="@+id/buttonkeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
